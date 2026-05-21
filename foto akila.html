@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Foto Akila</title>
+<style>
+  /* Mengubah background halaman menjadi gradasi pink pastel yang lembut */
+  body {
+    background: linear-gradient(180deg, #fff0f5 0%, #ffe4e1 50%, #ffdad9 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  /* Kotak Bingkai Utama buatan CSS (Pink + Putih) - Tinggi disesuaikan untuk teks */
+  .frame-custom {
+    position: relative;
+    width: 240px;
+    height: 350px; /* Diperpanjang ke bawah agar muat tulisan */
+    background: linear-gradient(135deg, #ffe3ec 0%, #ffb6c1 100%);
+    border: 8px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(255, 182, 193, 0.7);
+    display: flex;
+    flex-direction: column; /* Mengatur susunan agar foto di atas, teks di bawah */
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  /* Foto Killa di dalam bingkai */
+  .foto-killa {
+    width: 210px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  /* Ornamen Nama Akila */
+  .nama-anggota {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d11a5b;
+    letter-spacing: 1px;
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 2px;
+    font-size: 13px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+
+  /* Hiasan awan dan bintang imut di pojok-pojok */
+  .frame-custom::before {
+    content: "☁️ ⭐";
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    font-size: 20px;
+  }
+
+  .frame-custom::after {
+    content: "⭐ ☁️";
+    position: absolute;
+    bottom: -15px;
+    right: -10px;
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="frame-custom">
+    <a href="data akila.html">
+      <img src="killa.jpeg" class="foto-killa" border="0">
+    </a>
+    
+    <div class="nama-anggota">✨ AKILA ✨</div>
+    <div class="sub-tulisan">Pinkyy</div>
+  </div>
+</div>
+
+</body>
+</html>

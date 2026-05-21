@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>TABEL KELOMPOK</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  /* Mengatur background halaman dan font agar serasi */
+  body {
+    background-image: url("pink.gif");
+    font-family: 'Fredoka', 'Berlin Sans FB', sans-serif;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Judul Tabel dibuat lebih rapi tanpa tag caption di luar tempatnya */
+  .judul-tabel {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Desain Container Tabel berbentuk Frame Imut */
+  .table-container {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 20px;
+    /* Garis tepi putus-putus khas tema pinky mami */
+    outline: 3px dashed #ffb6c1;
+    outline-offset: -1px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+    width: 90%;
+    max-width: 280px;
+  }
+
+  /* Reset layout dasar tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden; /* Agar sudut tabel ikut melengkung */
+    background-color: #fff0f5;
+  }
+
+  /* Bagian Header Tabel (Nama, Telefon) */
+  th {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Bagian Isi Kolom & Baris */
+  td, tr th {
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+    color: #555555;
+    border-bottom: 1px solid #ffe4e1;
+  }
+
+  /* Mewarnai baris selang-seling biar gampang dibaca (Zebra striping) */
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  /* Efek interaktif saat baris dilewati kursor */
+  tr:hover {
+    background-color: #ffe4e1;
+    transition: background 0.2s ease;
+  }
+
+  /* Mengubah Link Nama menjadi Tombol Klik yang Cantik */
+  table a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: 600;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: #fff0f5;
+    border: 1px solid #ffb6c1;
+    transition: all 0.2s ease;
+  }
+
+  /* Efek saat link nama di-hover */
+  table a:hover {
+    background-color: #ff69b4;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  /* Khusus Tombol Foto Galeri di bagian bawah */
+  .btn-galeri {
+    background-color: #ff69b4 !important;
+    color: white !important;
+    width: 85%;
+    margin: 4px 0;
+    box-shadow: 0 3px 6px rgba(255, 105, 180, 0.3);
+  }
+  
+  .btn-galeri:hover {
+    background-color: #ff1493 !important;
+    transform: scale(1.03);
+  }
+</style>
+</head>
+<body>
+
+<div class="judul-tabel">Data Kelompok Berbakat</div>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th colspan="2">Telefon</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="foto akila.html" target="tengah">Akila</a></td>
+        <td>10225084</td>
+        <td>088809622131</td>
+      </tr>
+      <tr>
+        <td><a href="foto celine.html" target="tengah">Celine</a></td>
+        <td>10225355</td>
+        <td>089501836680</td>
+      </tr>
+      <tr>
+        <td><a href="foto selvi.html" target="tengah">Selviana</a></td>
+        <td>11225626</td>
+        <td>085950016846</td>
+      </tr>
+      <tr>
+        <td><a href="foto siti.html" target="tengah">Siti</a></td>
+        <td>11225685</td>
+        <td>0895388715300</td>
+      </tr>
+      <tr>
+        <td><a href="foto fira.html" target="tengah">Zhafirah</a></td>
+        <td>11225857</td>
+        <td>081290706429</td>
+      </tr>
+      <tr>
+        <td><a href="foto kyan.html" target="tengah">Kyandamia</a></td>
+        <td>11225935</td>
+        <td>08568936945</td>
+      </tr>
+      <tr>
+        <td><a href="foto tania.html" target="tengah">Tania</a></td>
+        <td>17225056</td>
+        <td>087820990750</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <a href="foto galery.html" target="kanan" class="btn-galeri">🌸 Foto Galery 🌸</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

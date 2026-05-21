@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Foto zhafirah</title>
+<style>
+  /* Background halaman gradasi pink pastel mewah serasi dengan yang lain */
+  body {
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffb6c1 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Bingkai Model Polaroid untuk Zhafirah */
+  .polaroid-fira {
+    position: relative;
+    width: 270px;
+    padding: 15px 15px 25px 15px;
+    background: #ffffff;
+    border: 6px solid #ffb6c1;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.5);
+    text-align: center;
+  }
+
+  /* Foto Fira di dalam polaroid (Fokus digeser ke atas agar jidat kelihatan) */
+  .foto-fira {
+    width: 270px;
+    height: 240px; /* Sedikit dinaikkan tingginya agar muka terlihat penuh */
+    object-fit: cover;
+    object-position: center 15%; /* Menggeser gambar ke bawah sedikit agar jidat atas tidak terpotong */
+    border-radius: 5px;
+    border: 1px solid #eee;
+  }
+
+  /* Ornamen Nama Zhafirah di bagian bawah polaroid */
+  .nama-anggota {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #d11a5b;
+    letter-spacing: 1px;
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 3px;
+    font-size: 13px;
+    font-style: italic;
+    color: #ff69b4;
+    font-weight: 600;
+  }
+
+  /* Hiasan bunga sakura gemas di pojokan polaroid */
+  .polaroid-fira::before {
+    content: "🌸";
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    font-size: 24px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="polaroid-fira">
+    <a href="data fira.html">
+      <img src="fira.jpeg" class="foto-fira" border="0">
+    </a>
+    
+    <div class="nama-anggota">🍒 ZHAFIRAH 🍒</div>
+    <div class="sub-tulisan">Pinkyy</div>
+  </div>
+</div>
+
+</body>
+</html>

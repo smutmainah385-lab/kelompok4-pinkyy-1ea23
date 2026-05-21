@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Foto selvi</title>
+<style>
+  /* Background halaman gradasi pink pastel mewah serasi dengan yang lain */
+  body {
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffb6c1 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Bingkai Model Lovely Badge khusus Selviana */
+  .badge-selviana {
+    position: relative;
+    width: 250px;
+    padding: 20px;
+    background: #ffffff;
+    /* Membuat potongan sudut bingkai melengkung unik (asimetris imut) */
+    border-radius: 50px 20px 50px 20px; 
+    border: 5px dashed #ffb6c1; /* Garis bingkai putus-putus ala renda jahit */
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.35);
+    text-align: center;
+  }
+
+  /* Foto Selviana di dalam bingkai */
+  .foto-selviana {
+    width: 210px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 35px 12px 35px 12px; /* Ikut melengkung serasi dengan bingkainya */
+    border: 2px solid #ffe3ec;
+  }
+
+  /* Ornamen Nama Selviana */
+  .nama-anggota {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #ff69b4; /* Latar belakang nama warna pink cerah */
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 6px;
+    font-size: 13px;
+    font-style: italic;
+    color: #ff1493;
+    font-weight: 600;
+  }
+
+  /* Hiasan kelinci imut mengintip di atas bingkai */
+  .badge-selviana::before {
+    content: "🐰🎀";
+    position: absolute;
+    top: -22px;
+    left: 30px;
+    font-size: 26px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="badge-selviana">
+    <a href="data selvi.html">
+      <img src="selviana.jpeg" class="foto-selviana" border="0">
+    </a>
+    
+    <br>
+    <div class="nama-anggota">SELVIANA</div>
+    <div class="sub-tulisan">Pinkyy</div>
+  </div>
+</div>
+
+</body>
+</html>

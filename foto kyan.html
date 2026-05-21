@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Foto kyandamia</title>
+<style>
+  /* Background halaman gradasi pink pastel mewah serasi dengan yang lain */
+  body {
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffb6c1 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Bingkai Model Postcard khusus Kyanda */
+  .postcard-kyanda {
+    position: relative;
+    width: 240px;
+    padding: 20px 20px 25px 20px;
+    background: #ffffff;
+    border: 6px dotted #ff69b4; /* Garis bingkai titik-titik tebal warna pink cerah */
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+    text-align: center;
+  }
+
+  /* Foto Kyanda di dalam bingkai */
+  .foto-kyanda {
+    width: 210px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 2px solid #fff0f5;
+  }
+
+  /* Ornamen Nama Kyanda */
+  .nama-anggota {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d11a5b;
+    letter-spacing: 2px;
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 3px;
+    font-size: 13px;
+    font-style: italic;
+    color: #ff69b4;
+    font-weight: 600;
+  }
+
+  /* Hiasan gelembung cinta di bagian atas bingkai */
+  .postcard-kyanda::before {
+    content: "🫧💞";
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #fff0f5;
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="postcard-kyanda">
+    <a href="data kyan.html">
+      <img src="kyan.jpeg" class="foto-kyanda" border="0">
+    </a>
+    
+    <div class="nama-anggota">✨ KYANDA ✨</div>
+    <div class="sub-tulisan">Pinkyy</div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Foto tania</title>
+<style>
+  /* Background halaman gradasi pink pastel mewah serasi dengan yang lain */
+  body {
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffb6c1 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Bingkai Model Candy Ribbon khusus Tania */
+  .frame-tania {
+    position: relative;
+    width: 240px;
+    height: 340px;
+    background: linear-gradient(135deg, #ffb6c1 0%, #ff69b4 100%);
+    border: 6px solid #ffffff; 
+    border-radius: 30px; 
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  /* Foto Tania di dalam bingkai */
+  .foto-tania {
+    width: 210px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px; 
+  }
+
+  /* Ornamen Nama Tania */
+  .nama-anggota {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 2px;
+    font-size: 13px;
+    font-style: italic;
+    color: #fff0f5;
+    font-weight: 600;
+  }
+
+  /* Hiasan permen manis di bagian atas bingkai */
+  .frame-tania::before {
+    content: "🍬🎀🍬";
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="frame-tania">
+    <a href="data tania.html">
+      <img src="tania.jpeg" class="foto-tania" border="0">
+    </a>
+    
+    <div class="nama-anggota">TANIA</div>
+    <div class="sub-tulisan">Pinkyy</div>
+  </div>
+</div>
+
+</body>
+</html>

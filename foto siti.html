@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Foto siti</title>
+<style>
+  /* Background halaman gradasi pink pastel mewah serasi dengan yang lain */
+  body {
+    background: linear-gradient(135deg, #fff0f5 0%, #ffe4e1 50%, #ffb6c1 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* Bingkai Ter-imut & Paling Bagus khusus Siti (Magical Princess Frame) */
+  .frame-siti-spesial {
+    position: relative;
+    width: 250px;
+    padding: 25px 20px 25px 20px;
+    background: rgba(255, 240, 245, 0.75); /* Efek kaca transparan pink susu lembut */
+    border: 5px double #ff69b4; /* Garis ganda mewah warna pink cerah */
+    border-radius: 40px; /* Sudut membulat balon yang super gemas */
+    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.45), inset 0 0 15px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    text-align: center;
+  }
+
+  /* Foto Siti/Muty di dalam bingkai */
+  .foto-siti {
+    width: 220px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 25px; /* Potongan sudut foto ikutan membulat halus */
+    border: 3px solid #ffffff; /* Frame putih tebal di sekeliling foto */
+    box-shadow: 0 6px 15px rgba(255, 182, 193, 0.5);
+  }
+
+  /* Ornamen Nama SITI dengan gaya teks berkilau */
+  .nama-anggota {
+    margin-top: 18px;
+    font-size: 19px;
+    font-weight: 900;
+    color: #ffffff;
+    background: linear-gradient(90deg, #ff69b4, #ff1493); /* Kapsul nama gradasi pink cetar */
+    padding: 6px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 12px rgba(255, 20, 147, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Ornamen Tulisan Pinkyy */
+  .sub-tulisan {
+    margin-top: 6px;
+    font-size: 13px;
+    font-style: italic;
+    color: #db1f71;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  /* Hiasan Mahkota Princess Utama di atas bingkai */
+  .frame-siti-spesial::before {
+    content: "👑🎀👑";
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+  }
+
+  /* Ornamen Kilauan & Hati Tambahan di Kiri Bawah */
+  .frame-siti-spesial::after {
+    content: "✨💖🫧";
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<br><br><br>
+
+<div align="center">
+  <div class="frame-siti-spesial">
+    <a href="data siti.html">
+      <img src="muty.jpeg" class="foto-siti" border="0">
+    </a>
+    
+    <div class="nama-anggota">SITI</div>
+    <div class="sub-tulisan">✨ Pinkyy ✨</div>
+  </div>
+</div>
+
+</body>
+</html>
